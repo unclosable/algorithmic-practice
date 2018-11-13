@@ -6,7 +6,11 @@ public class Main {
 
 		// MSS mss = new AllLoopSummation();
 
-		MSS mss = new AllLoopSummationImproved();
+		// MSS mss = new AllLoopSummationImproved();
+
+		// MSS mss = new Division();
+
+		MSS mss = new DynamicAnalysis();
 
 		System.out.println(mss.getMaxSummation(testArray));
 
